@@ -133,7 +133,7 @@ const Register = () => {
           Submit
         </Button>
       </form>
-      <SuccessModal isOpen={!isOpen} setIsOpen={setIsOpen} data={data} />
+      <SuccessModal isOpen={isOpen} setIsOpen={setIsOpen} data={data} />
     </div>
   );
 };
