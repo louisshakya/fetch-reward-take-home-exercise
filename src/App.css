@@ -63,7 +63,7 @@
   justify-content: center;
 }
 
-.modalButton > .css-sghohy-MuiButtonBase-root-MuiButton-root {
+.modalButton > .MuiButtonBase-root {
   width: 100px;
 }
 
@@ -81,8 +81,8 @@
   outline: none;
 }
 
-div > .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
-  background-color: rgba(227, 227, 227, 0.502);
+div > .MuiBackdrop-root {
+  background-color: #e3e3e380;
 }
 
 .occupationFormControl {
