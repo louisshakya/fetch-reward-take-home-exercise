@@ -1,5 +1,10 @@
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e0e0e0;
 }
 
 .App-logo {
@@ -26,6 +31,75 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 550px;
+  width: 550px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: inset 13px 13px 26px #cacaca, inset -13px -13px 26px #f6f6f6;
+  padding: 30px;
+}
+
+.formControl {
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
+}
+
+.formHeading {
+  font-size: 3em;
+  color: rgb(85, 85, 85);
+}
+
+.modalButton {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.modalButton > .css-sghohy-MuiButtonBase-root-MuiButton-root {
+  width: 100px;
+}
+
+.modalDiv {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+  border-radius: 15px;
+  background: #d6d6d6;
+  box-shadow: 7px 7px 14px #b6b6b6, -7px -7px 14px #f6f6f6;
+  outline: none;
+}
+
+div > .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+  background-color: rgba(227, 227, 227, 0.502);
+}
+
+.occupationFormControl {
+  width: 300px;
+  text-align: left;
+}
+
+.registerButton {
+  width: 150px;
+}
+
+.textField {
+  width: 450px;
+}
+
+.stateFormControl {
+  width: 90px;
 }
 
 @keyframes App-logo-spin {
